@@ -235,7 +235,7 @@ body {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
   background-color: var(--text-color-white);
-  color: #593014;
+  color: black;
   overflow-x: hidden;
 }
 
@@ -759,6 +759,7 @@ header.scrolled {
   height: auto;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   /* overflow: hidden; */
 }
 
@@ -1180,6 +1181,7 @@ header.scrolled {
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-size: cover;
+  background-position: center;
 }
 
 .testimonials .section-title h2 {
@@ -1617,6 +1619,7 @@ header.scrolled {
 /* subscribe now start */
 .subscribe-us {
   position: relative;
+  padding-top: 3rem;
 }
 
 .subscribe-us .content p {
@@ -1644,7 +1647,7 @@ header.scrolled {
 }
 
 .subscribe-us .subscribe-form .input-button a i {
-  color: var(--primary-color);
+  color: black;
   padding: 0px 18px;
 }
 
@@ -2463,5 +2466,12 @@ h7{
 
 .logo_footer a i {
   font-size: 40px;
+  color: white;
+}
+
+h8 {
+  position: relative;
+  display: inline;
+  font-family: "Pacifico", cursive;
   color: white;
 }
