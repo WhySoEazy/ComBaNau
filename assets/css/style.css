@@ -760,7 +760,7 @@ header.scrolled {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .banner .banner-content {
@@ -1633,6 +1633,7 @@ header.scrolled {
   box-shadow: none;
   border: none;
   outline: none;
+  border-radius: 5px 0 0 5px;
 }
 
 .subscribe-us .subscribe-form .input-button {
@@ -1640,6 +1641,7 @@ header.scrolled {
   display: flex;
   align-items: center;
   background-color: #f4f4f4;
+  border-radius: 0 5px 5px 0;
 }
 
 .subscribe-us .subscribe-form .input-button a {
@@ -2474,4 +2476,191 @@ h8 {
   display: inline;
   font-family: "Pacifico", cursive;
   color: white;
+}
+
+/* We Accept Section */
+.we-accept {
+  background-color: #040609;
+  text-align: center;
+}
+
+.we-accept h6 {
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.we-accept .payment-icons img {
+  height: 30px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .reservation-box {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 990px) {
+  .banner-content {
+    text-align: center;
+  }
+
+  .banner-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .services .cards {
+    margin-bottom: 20px;
+  }
+
+  .about-img-box {
+    text-align: center;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+
+  .about-extra .about-experience,
+  .about-extra .about-popular {
+    justify-content: center;
+  }
+
+  #our-menus img {
+    margin: 0 auto;
+  }
+
+  #our-menus .item-right {
+    text-align: left;
+  }
+
+  .our-services .icon-box {
+    margin-bottom: 20px;
+  }
+
+  .gallery-image {
+    height: 200px;
+  }
+
+  .subscribe-us .content {
+    text-align: center;
+  }
+
+  .subscribe-us img {
+    display: none !important;
+  }
+
+  .subscribe-form {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-bar-wrapper {
+    width: 80%;
+  }
+
+  .shopping-cart {
+    width: 300px;
+  }
+
+  .shopping-cart-item h3 {
+    font-size: 0.9rem;
+  }
+
+  .footer-checkout a,
+  .footer-shopping a {
+    padding: 8px 15px;
+  }
+
+  .about-content h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .slider-indicators {
+    margin: 0 5px;
+  }
+
+  .slider-indicators .indicators-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .slider-indicators .indicators-icon i {
+    font-size: 1rem;
+  }
+
+  .slider-indicators .indicators-title h5 {
+    font-size: 0.8rem;
+  }
+
+  #our-menus .item-wrapper {
+    flex-direction: column;
+  }
+
+  #our-menus .item-right {
+    margin-top: 10px;
+  }
+
+  .testi-content p {
+    font-size: 0.9rem;
+  }
+
+  .slider-nav-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .reservation-wrapper h2 {
+    font-size: 1.5rem;
+  }
+
+  .reservation-wrapper p,
+  .reservation-wrapper h3 {
+    font-size: 0.9rem;
+  }
+
+  .subscribe-us .content h5 {
+    font-size: 1.5rem;
+  }
+}
+
+.we-accept h5 {
+  font-family: "Pacifico", cursive;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+}
+
+.payment-icons {
+  padding-top: 20px;
+}
+
+.we-accept .payment-btn {
+  background-color: #fff; /* White background */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px; /* Padding around the image */
+  margin: 0 3px; /* Spacing between buttons */
+  display: inline-block; /* Inline-block for button layout */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  cursor: pointer; /* Pointer cursor to indicate clickability */
+}
+
+.we-accept .payment-btn img {
+  height: 20px; /* Larger icon size */
+  vertical-align: middle;
+}
+
+.we-accept .payment-btn:hover {
+  background-color: #f8f9fa; /* Slight background change on hover */
+  border-color: #ccc; /* Slightly darker border on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
 }
