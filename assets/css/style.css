@@ -229,6 +229,7 @@
 /* Applying Fonts and Colors to Elements */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -236,6 +237,7 @@ body {
   font-weight: 400;
   background-color: var(--text-color-white);
   color: black;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
 
@@ -2581,6 +2583,7 @@ h8 {
   .about-content h2 {
     font-size: 1.5rem;
   }
+
 }
 
 @media (max-width: 500px) {
@@ -2652,6 +2655,7 @@ h8 {
   display: inline-block; /* Inline-block for button layout */
   transition: all 0.3s ease; /* Smooth transition for hover effects */
   cursor: pointer; /* Pointer cursor to indicate clickability */
+  margin-bottom: 7px;
 }
 
 .we-accept .payment-btn img {
